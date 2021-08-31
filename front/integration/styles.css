@@ -1,0 +1,152 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /*background-color: #2F4372;*/
+  background-color: #1F273A;
+  font-family: sans-serif;
+}
+.header {
+  display: flex;
+  border-bottom: 1px solid black;
+  justify-content: space-around;
+  align-items: baseline;
+  background-color: #2E323B;
+  /*background-color: #2F4372;*/
+}
+.title {
+  display: flex;
+  align-items: baseline;
+  align-content: center;
+  justify-content: center;
+  width: 50%;
+  color:#A8B3CC;
+  background-color:  #3C4457;
+  
+  clip-path: polygon(0 0, 90% 0, 100% 100%, 0% 100%);
+}
+.title h1{font-size: 2.1em
+  }
+.title .phrase{
+  text-decoration: underline;
+}
+.navigation {
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+  
+}
+
+.navigation ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 10px;
+}
+.navigation ul li a {
+  color: #A8B3CC;
+  font-size: 2em;
+}
+.navigation ul li a:hover {
+color: #7559D1;
+text-shadow: 3px 3px #000 ;
+}
+.actiflink{
+  color: #7559D1;
+  text-shadow: 3px 3px #000 ;
+}
+
+.articlelist{
+  
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.player{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin:5px;
+border: 1px solid black;
+border-radius: 20px 5px;
+  width: 15%;
+  height: 230px;
+  overflow: hidden;
+}
+.articlelist .title_article{
+  display: flex;
+  font-weight: bold;
+  color: #FFF;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #3C4457;
+  height: 15%;
+}
+.articlelist .main_article{
+  height: 75%;
+  border-bottom: 1px solid black;
+  border-top: 1px solid black;
+  color: #FFF;
+  background-color: #2E323B;
+  text-align: top;
+  padding: 6px;
+}
+.articlelist .footer_article{
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #3C4457;
+  height: 10%;
+  font-size: 1.2em;
+  color: #A8B3CC;
+  padding: 2px 4px;;
+}
+.footer_article a{
+  color: #A8B3CC;
+  text-shadow: 1px 1px black ;
+}
+
+.articlelist .footer_article .fas:hover{
+  color: #7559D1;
+  text-shadow: 1px 1px black ;
+  cursor: pointer;
+}
+.main{
+  align-items: center;
+justify-content: center;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+
+}
+.main h2{
+  color: #A8B3CC;
+}
+.formulaire{
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+.input-formulaire{
+  margin: 10px 0;
+  background-color: #A8B3CC;
+  border:1px solid black;
+  padding: 4px 4px;
+  text-align: center;
+  width: 100%;
+  font-size: 1.2em;
+}
+.input-formulaire:focus{
+  outline: none;
+
+}
+.buttonn{
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+}
+.button-formulaire{
+  
+  background-color: #A8B3CC;
+  border:1px solid black;
+  padding: 15px 5px;
+  width: 40%;
+}
